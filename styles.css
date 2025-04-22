@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #d6cdee;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #666;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #666;
+}
+nav {
+    background-color: #e9f2fb;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #666;
+}
+main {
+    padding: 40px;
+    min-height: 300px;
+    color: #666;
+    font-size: 1.2em;
+}
+footer {
+    background-color: #bdb8df;
+    border-top: 1px solid #ddd;
+    font-weight: bold;
+    color: #666;
+}
+/* تنسيق نموذج تسجيل الدخول وإنشاء الحساب */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* تنسيق العناوين */
+h2 {
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+/* تنسيق الحقول */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+    font-family: Arial, sans-serif;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="radio"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+/* تنسيق زر الإرسال */
+button {
+    background-color:  #725a8d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:  #7b68b1;
+}
+
+/* تنسيق الفقرات والروابط */
+p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #666;
+}
+
+a {
+    color: #7b68b1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ترتيب نموذج الحقول في مجموعات */
+fieldset {
+    border: none;
+    padding: 0;
+    margin-top: 15px;
+}
+legend {
+    font-size: 1.2em;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+/* نمط الخلفية الكامل لصفحة Service2 */
+.services-background {
+    background-image: url('BackG.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    color: #333; 
+}
+main {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+footer {
+    background-color: #5D5978;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+/* تنسيق لجعل الجدول في المنتصف */
+main table {
+    margin: 0 auto; /* يجعل الجدول في المنتصف */
+    border-collapse: collapse; /* إزالة المسافات بين حدود الخلايا */
+    width: 80%; /* عرض الجدول بنسبة 80% من الصفحة */
+    text-align: left; /* ترتيب النص إلى اليسار داخل الخلايا */
+}
+
+/* تنسيق حدود وألوان الخلايا */
+main table th,
+main table td {
+    border: 1px solid #ddd; /* إضافة حدود للخلايا */
+    padding: 8px; /* مسافة داخلية في الخلايا */
+}
+
+main table th {
+    background-color: #bbac69; /* لون خلفية للرؤوس */
+    color: white; /* لون النص للرؤوس */
+    text-align: center;
+}
